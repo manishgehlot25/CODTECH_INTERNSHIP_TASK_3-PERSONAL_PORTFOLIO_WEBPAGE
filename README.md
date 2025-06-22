@@ -33,3 +33,7 @@ Features :-
 - Clean and minimal UI design
 
 # OUTPUT :-
+
+![Image](https://github.com/user-attachments/assets/a7f18503-8d3a-4d96-a7fd-371cbca546be)
+
+![Image](https://github.com/user-attachments/assets/6c05d476-0b8c-4225-a4c9-e27ec0d20b69)
