@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <button class="hamburger" onclick="toggleSidebar()">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+        <a href="#home" onclick="closeSidebar()">Home</a>
+        <a href="#about" onclick="closeSidebar()">About</a>
+        <a href="#projects" onclick="closeSidebar()">Projects</a>
+        <a href="#contact" onclick="closeSidebar()">Contact</a>
+    </div>
+
+
+    <section id="home" class="section home">
+        <h2>Hello, I'm Manish 👋</h2>
+        <p>Frontend Developer | React Enthusiast | Web Design Lover</p>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I’m a passionate frontend developer with experience in building responsive web apps using HTML, CSS,
+            JavaScript, and React. I love crafting beautiful and user-friendly interfaces.</p>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <a href="https://github.com/yourusername/todo-app" class="project-card" target="_blank">
+                <h3>ToDo App</h3>
+                <p>A task manager built with HTML, CSS, and JS.</p>
+            </a>
+            <a href="https://github.com/yourusername/weather-app" class="project-card" target="_blank">
+                <h3>Weather App</h3>
+                <p>Live weather forecast using APIs and responsive design.</p>
+            </a>
+            <a href="https://github.com/yourusername/ecommerce-site" class="project-card" target="_blank">
+                <h3>E-commerce Site</h3>
+                <p>Fully responsive cart and checkout with theme toggle.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Manish. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
